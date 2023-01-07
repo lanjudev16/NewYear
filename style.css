@@ -156,3 +156,7 @@ ul li img {
 .mindset-content {
     padding-left: 64px;
 }
+
+.mindset-content .section-title {
+    color: white;
+}
