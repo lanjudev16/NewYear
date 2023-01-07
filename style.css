@@ -105,6 +105,23 @@ ul li img {
     width: 30px;
 }
 
+/*new year checklist */
+.new-year-checklist-container .section-title {
+    text-align: center;
+}
+
+.new-year-checklist {
+    background-image: url('./assets/images/images.jpg'), linear-gradient(270deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 /* plan section */
 .plan-section {
     margin: 130px 0px;
@@ -135,9 +152,9 @@ ul li img {
 .item {
     width: 21%;
     text-align: center;
-    box-shadow: 2px 2px 8px #ddd;
+    /*box-shadow: 2px 2px 8px #ddd;
     padding: 35px 11px;
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 
 /*positive mindset section*/
@@ -159,4 +176,66 @@ ul li img {
 
 .mindset-content .section-title {
     color: white;
+}
+
+/*footer section */
+.footer-bg {
+    background: #151414;
+    ;
+}
+
+.footer-container {
+    display: flex;
+    gap: 331px;
+    padding: 105px 0px;
+}
+
+.footer-left-content {
+    width: 50%;
+}
+
+.footer-left-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 17px;
+}
+
+.footer-left-content h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 24px 0px;
+}
+
+.footer-left-content img {
+    width: 45px;
+    height: 45px;
+}
+
+.footer-left-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-right-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+input[type="email"] {
+    margin: 24px 0px 17px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding: 20px 22px;
+    border: 0.5px solid #FFFFFF;
+    background-color: #151414;
+
+}
+
+.subscribe {
+    color: #F15B22;
 }
