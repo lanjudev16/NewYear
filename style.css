@@ -106,21 +106,36 @@ ul li img {
 }
 
 /*new year checklist */
-.new-year-checklist-container .section-title {
-    text-align: center;
+.checklist-year {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 87px;
+    margin: 130px 0px;
 }
 
-.new-year-checklist {
-    background-image: url('./assets/images/images.jpg'), linear-gradient(270deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    background-position: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    height: 70vh;
+.checklist-left {
+    width: 50%;
+}
+
+.checklist-right {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 4px 0px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
+
+ul li img {
+    width: 30px;
+}
+
 
 /* plan section */
 .plan-section {
@@ -160,6 +175,7 @@ ul li img {
 /*positive mindset section*/
 .positive-mindset-section {
     background-image: url('./assets/images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
