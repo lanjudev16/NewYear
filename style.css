@@ -18,6 +18,18 @@
     border-radius: 5px;
 }
 
+.max-width {
+    width: 1071px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
 /*banner section style start */
 header {
     background-image: url('./assets/images/banner/banner3.png');
@@ -47,3 +59,82 @@ header {
     color: #FFFFFF;
     margin: 24px 0px 32px;
 }
+
+/* previous year style */
+.previous-year {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 87px;
+    margin: 130px 0px;
+}
+
+.previous-left {
+    width: 50%;
+}
+
+.previous-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 4px 0px;
+    display: flex;
+    align-items: center;
+}
+
+ul li img {
+    width: 30px;
+}
+
+/* plan section */
+.plan-section {
+    margin: 130px 0px;
+}
+
+.plan-section .section-title {
+    text-align: center;
+}
+
+.plan-items {
+    display: flex;
+    gap: 86px;
+    margin-top: 50px;
+}
+
+.plan-item-title {
+    color: #0f0e0e;
+    font-size: 20px;
+    margin: 24px 0px 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
+
+.item {
+    width: 21%;
+    text-align: center;
+}
+
+/*positive mindset section*/
+.positive-mindset-section {
+    background-image: url('./assets/images/watch.png'), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 95, 172, 0.8));
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.mindset-content {}
