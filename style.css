@@ -11,10 +11,21 @@
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    color: #005FAC;
+    color: rgb(0, 95, 172);
     background-color: white;
     border: none;
-    padding: 20px 25px;
+    padding: 13px 18px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 95, 172);
+    background-color: white;
+    border: none;
+    padding: 13px 18px;
     border-radius: 5px;
 }
 
@@ -124,17 +135,24 @@ ul li img {
 .item {
     width: 21%;
     text-align: center;
+    box-shadow: 2px 2px 8px #ddd;
+    padding: 35px 11px;
+    border-radius: 5px;
 }
 
 /*positive mindset section*/
 .positive-mindset-section {
-    background-image: url('./assets/images/watch.png'), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 95, 172, 0.8));
-    ;
+    background-image: url('./assets/images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    height: 50vh;
+    margin-bottom: 130px;
 }
 
-.mindset-content {}
+.mindset-content {
+    padding-left: 64px;
+}
